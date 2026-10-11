@@ -62,7 +62,7 @@ function Index() {
           </div>
           <div className="portrait-area"><div className="portrait-halo" /><span className="spark spark-one">✦</span><span className="spark spark-two">✹</span><span className="spark spark-three">✦</span><img className="hero-portrait" src={instructor} alt="Your Learn@House instructor, smiling with arms folded" width={1024} height={1024} /></div>
         </div>
-        <svg className="hero-curve" viewBox="0 0 1440 100" preserveAspectRatio="none" aria-hidden="true"><path className="curve-back" d="M0 0H1440V27Q1440 61 1395 61H864C813 61 817 98 760 98H680C623 98 627 61 576 61H45Q0 61 0 27Z" /><path className="curve-mid" d="M0 0H1440V17Q1440 50 1395 50H864C813 50 817 87 760 87H680C623 87 627 50 576 50H45Q0 50 0 17Z" /><path className="curve-front" d="M0 0H1440V7Q1440 39 1395 39H864C813 39 817 76 760 76H680C623 76 627 39 576 39H45Q0 39 0 7Z" /></svg>
+        <svg className="hero-curve" viewBox="0 0 1440 100" preserveAspectRatio="none" aria-hidden="true"><path className="curve-back" d="M0 0H1440V27Q1440 61 1395 61H940C940 98 500 98 500 61H45Q0 61 0 27Z" /><path className="curve-mid" d="M0 0H1440V17Q1440 50 1395 50H940C940 92 500 92 500 50H45Q0 50 0 17Z" /><path className="curve-front" d="M0 0H1440V7Q1440 39 1395 39H940C940 86 500 86 500 39H45Q0 39 0 7Z" /></svg>
         <a href="#services" className="curve-arrow" aria-label="Explore why to choose us"><ArrowDown size={18} /></a>
       </section>
       <section className="reasons-section page-width" id="services">
