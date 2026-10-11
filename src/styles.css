@@ -70,6 +70,7 @@
 .stars { display: flex; gap: 3px; }
 .stars svg { width: 13px; height: 13px; fill: currentColor; }
 .hero h1 { font-size: 49px; line-height: 1.2; font-weight: 600; margin: 0; }
+.headline-flame { display: inline-block; width: 31px; height: 38px; vertical-align: baseline; color: var(--secondary); fill: var(--secondary); stroke-width: 1; }
 .hero-description { max-width: 310px; font-size: 13px; line-height: 1.6; margin-top: 24px; opacity: .78; }
 .hero-actions { display: flex; align-items: center; gap: 19px; margin: 25px 0 32px; }
 .store-button { height: 42px; padding-inline: 19px; gap: 9px; }
@@ -87,7 +88,7 @@
 .hero-stat span { display: block; font-size: 9px; line-height: 1.6; opacity: .65; margin-top: 5px; }
 .portrait-area { align-self: stretch; position: relative; display: flex; justify-content: center; align-items: flex-end; }
 .portrait-halo { position: absolute; width: 395px; height: 395px; border-radius: 50%; background: var(--hero-halo); bottom: -2px; z-index: -1; }
-.hero-portrait { height: 477px; width: 477px; max-width: none; object-fit: contain; object-position: bottom; position: relative; margin-bottom: -2px; }
+.hero-portrait { height: 477px; width: 477px; max-width: none; object-fit: contain; object-position: bottom; position: relative; margin-bottom: -48px; }
 .spark { position: absolute; color: var(--secondary); font-size: 63px; line-height: 1; z-index: 1; }
 .spark-one { top: 115px; left: 9px; }
 .spark-two { top: 146px; right: 2px; font-size: 24px; }
@@ -171,7 +172,7 @@ footer small { font-size: 11px; color: var(--muted-foreground); }
   .hero-stats { max-width: 350px; }
   .hero-stat strong { font-size: 23px; }
   .portrait-area { height: 335px; margin-top: 20px; }
-  .hero-portrait { height: 355px; width: 355px; }
+  .hero-portrait { height: 355px; width: 355px; margin-bottom: -18px; }
   .portrait-halo { height: 290px; width: 290px; }
   .spark-one { top: 63px; left: 7px; font-size: 48px; }
   .spark-two { right: 14px; top: 90px; }

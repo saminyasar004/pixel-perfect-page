@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { useEffect, useState } from 'react';
-import { Apple, ArrowDown, ArrowRight, BookOpen, Check, GraduationCap, Headset, Menu, Monitor, Play, Star, UsersRound, X } from 'lucide-react';
+import { Apple, ArrowDown, ArrowRight, BookOpen, Check, Flame, GraduationCap, Headset, Menu, Monitor, Play, Star, UsersRound, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import instructor from '@/assets/instructor.png';
 import stepsInstructor from '@/assets/instructor-steps.png';
@@ -52,7 +52,7 @@ function Index() {
         <div className="hero-content page-width">
           <div className="hero-copy">
             <div className="rating"><span className="stars">{Array.from({length: 5}, (_, i) => <Star key={i} />)}</span><span>5.0 Star | 1.5K+ Reviews</span></div>
-            <h1>Because Email<br />Is Complicated<br />Enough. <span className="text-secondary">🔥</span></h1>
+            <h1>Because Email<br />Is Complicated<br />Enough. <Flame className="headline-flame" aria-label="fire" /></h1>
             <p className="hero-description">Try Email House. Build your next classroom.<br />Follow your dreams & learn more. Start today<br />for free.</p>
             <div className="hero-actions">
               <Button variant="store" className="store-button" onClick={() => setModal({ title: 'Learn on the go', text: 'The Learn@House app is coming soon. In the meantime, explore our courses right here.' })}><Apple fill="currentColor" /><span className="store-copy"><small>Download on the</small><strong>App Store</strong></span></Button>
