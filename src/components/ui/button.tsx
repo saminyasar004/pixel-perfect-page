@@ -9,6 +9,9 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        sunshine: "bg-secondary text-secondary-foreground rounded-full hover:bg-secondary/85 shadow-sm",
+        store: "bg-store text-primary-foreground rounded-full hover:bg-store/85",
+        heroGhost: "text-primary-foreground hover:bg-primary-foreground/10 rounded-full",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:
